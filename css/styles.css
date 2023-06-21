@@ -157,7 +157,6 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 .header-nav-list {
@@ -170,6 +169,7 @@ img {
 
 .header-nav-link {
     color: var(--text-secondary-color);
+    padding: 24px 0;
 }
 
 .header-nav-link:hover,
@@ -229,9 +229,11 @@ img {
     display: block;
     margin: 48px 480px 0 480px;
     min-width: 169px;
+    height: 56px;
     padding: 14px 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 
     font-weight: 500;
     font-size: 16px;
@@ -347,9 +349,10 @@ img {
     background-color: var(--bg-dark-color);
     border-bottom: 1px solid var(--border-color-filtres-btn);
 }
-
+.footer-link {
+    margin-bottom: 16px;
+}
 .footer-text {
-    margin-top: 16px;
     max-width: 264px;
     font-weight: 400;
     color: var(--text-footer-color);
@@ -393,6 +396,7 @@ img {
     color: var(--text-button-white-color);
     background-color: var(--bg-btn-hover-filtres);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid transparent;
 }
 
 .portfolio-prject-list {
