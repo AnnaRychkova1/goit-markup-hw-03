@@ -113,7 +113,11 @@ img {
     color: var(--text-logo-ligt-color);
 }
 
-/* Section-title */
+/**
+  |============================
+  | Section-title for Studio
+  |============================
+*/
 
 .section-title {
     margin-bottom: 72px;
@@ -127,7 +131,11 @@ img {
     color: var(--text-secondary-color);
 }
 
-/* Hidden */
+/**
+  |============================
+  | Hidden
+  |============================
+*/
 
 .visually-hidden {
     position: absolute;
@@ -142,7 +150,11 @@ img {
     overflow: hidden;
 }
 
-/* Header */
+/**
+  |============================
+  | Header
+  |============================
+*/
 
 .header {
     border-bottom: 1px solid var(--border-color-filtres-btn);
@@ -201,11 +213,19 @@ img {
     color: var(--text-hover-link-blue);
 }
 
-/* Main */
+/**
+  |============================
+  | Main
+  |============================
+*/
 
 .main {}
 
-/* Hero section */
+/**
+  |============================
+  | Hero section
+  |============================
+*/
 
 .hero {
     background-color: var(--bg-dark-color);
@@ -248,7 +268,11 @@ img {
     background-color: var(--bg-btn-hover);
 }
 
-/* Features section */
+/**
+  |============================
+  | Features section
+  |============================
+*/
 
 .features {}
 
@@ -280,7 +304,11 @@ img {
     letter-spacing: 0.02em;
 }
 
-/* What are we doing section */
+/**
+  |============================
+  | What are we doing section
+  |============================
+*/
 
 .work {
     padding-top: 0;
@@ -295,10 +323,13 @@ img {
     flex-basis: calc((100% - 48) / 3);
 }
 
-.work-image {
-}
+.work-image {}
 
-/* Our Team section */
+/**
+  |============================
+  | Our Team section
+  |============================
+*/
 
 .team {
     background-color: var(--bg-ligt-grey-color);
@@ -340,7 +371,11 @@ img {
     font-weight: 400;
 }
 
-/* Footer section */
+/**
+  |============================
+  | Footer section
+  |============================
+*/
 
 .footer {
     padding-top: 100px;
@@ -351,6 +386,7 @@ img {
 }
 .footer-link {
     margin-bottom: 16px;
+    margin-right: 0;
 }
 .footer-text {
     max-width: 264px;
@@ -358,8 +394,11 @@ img {
     color: var(--text-footer-color);
 }
 
-
-/* Portfolio */
+/**
+  |============================
+  |       Portfolio
+  |============================
+*/
 
 .portfolio {
     padding-top: 96px;
